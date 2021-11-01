@@ -35,3 +35,8 @@ variable "private-subnet-tag" {
 variable "tfgateway-tag" {
   default = "tf-gtw"
 }
+
+#route table
+variable "tfrt-tag" {
+  default ="tf-rt"
+}
