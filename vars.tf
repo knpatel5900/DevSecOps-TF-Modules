@@ -30,3 +30,8 @@ variable "private-subnet-cidr" {
 variable "private-subnet-tag" {
   default= "tf-private"
 }
+
+#gateway
+variable "tfgateway-tag" {
+  default = "tf-gtw"
+}
