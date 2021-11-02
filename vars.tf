@@ -55,3 +55,17 @@ variable "tfpublickey" {
 variable "tfkeypair" {
   default = "tfkey"
 }
+
+#EC2 Instances
+variable "tfec2ami" {
+  default = "ami-0323c3dd2da7fb37d"
+}
+variable "instance_type" {
+  default = "t2.micro"
+}
+variable "instancetag" {
+  default = "tf-ec2tag"
+}
+variable "ec2count" {
+  default = "2"
+}
