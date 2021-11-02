@@ -40,3 +40,11 @@ variable "tfgateway-tag" {
 variable "tfrt-tag" {
   default ="tf-rt"
 }
+
+#securitygroup
+variable "tfsgcidrip" {
+  default="34.237.207.131/32"
+}
+variable "tfsgtag" {
+  default="tf-publicsg"
+}
