@@ -1,6 +1,7 @@
 resource "aws_security_group" "tfpublicsg" {
   description = "securitygroup"
   vpc_id      = aws_vpc.terraform_vpc.id
+  map_public_ip_on_launch  = "True"
 
   ingress {
     description = "http"
